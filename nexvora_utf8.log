@@ -1,0 +1,21 @@
+﻿
+> novacoin-local@1.0.0 dev
+> concurrently "cd frontend && npm run dev" "cd backend && npm run start"
+
+node.exe : (node:10580) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() 
+instead.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:10580) [D...sign() instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[0] 
+[0] > novacoin-frontend@0.1.0 dev
+[0] > next dev -p 3005
+[0] 
+[1] 
+[1] > novacoin-backend@0.1.0 start
+[1] > node src/index.js
+[1] 
